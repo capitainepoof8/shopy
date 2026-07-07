@@ -1,7 +1,6 @@
 TVA = 0.18
 panier = []
 menu = [
-    {"number":1,"name": "Tchebou Guinar", "price": 1500},
     {"number": 1, "name": "Tchebou Guinar", "price": 1500},
     {"number": 2, "name": "Yassa Poullet", "price": 1500},
     {"number": 3, "name": "Attieke poulet + Alloco", "price": 3000},
