@@ -11,7 +11,7 @@ menu = [
 
 
 
-
+#code debutter avec la fonction d'ajoute et retrais 
 
 def ajouter():
     ajouter = input("\nAjouter au panier (numéro) ou Entrée pour revenir : ")
@@ -61,6 +61,7 @@ def ajouter():
         panier.append(nouvel_article)
         print(f"-> {plat_trouve['name']} ajouté au panier")
 
+# fonction pour afficher le menu une foit que le chifre 1 a ete saisie dans le input
 
 def afficher_menu(menu):
     print("=============== menu du jour ==============")
@@ -73,7 +74,7 @@ def afficher_menu(menu):
 
     ajouter()
 
-
+# fonction retrais de plat 
 def suprimer_plat(panier):
     if not panier:
         print("\nvotre panier est vide")
@@ -159,6 +160,7 @@ def menu_principal():
         elif choix == "5":
             afficher_facture(panier)
         elif choix == "6":
+            print("=============== merci d'avoir passé commande ===================")
             print("\nA bientôt !")
             break
         else:
